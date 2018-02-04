@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Serves Express Yourself website
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 const { getElementById, getIndexById, updateElement,
     seedElements } = require('./utils');
@@ -12,7 +12,7 @@ seedElements(expressions, 'expressions');
 
 const PORT = process.env.PORT || 4001;
 // Use static server to serve the Express Yourself Website
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/expressions', (req, res, next) => {
     res.send(expressions);
