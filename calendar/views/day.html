@@ -1,0 +1,9 @@
+<!-- Format a date so it displays in the format "Friday 1/16" -->
+<h2 class="date">{{ day.date | date }}</h2>
+
+<div class="event" ng-repeat="dayitem in day.events">
+    <a href="#/{{$index}}">
+        <h3 class="name">{{ dayitem.name }}</h3>
+        <p><span class="from">{{ dayitem.from | date:'h:mm a' }}</span> - <span class="to">{{ dayitem.to | date:'h:mm a' }}</span></p>
+    </a>
+</div>
