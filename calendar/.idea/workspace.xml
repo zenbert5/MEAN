@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7db1077-64a1-49bc-9ce5-97868fd15ee3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/controllers/DayController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/controllers/EventController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/services/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/vendor/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/day.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/event.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/css/next.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/img/drjekyllmrhyde.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/img/heartofdarkness.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/img/metamorphosis.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/js/controllers/BookshelfController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/js/services/books.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/js/vendor/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/views/book.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/views/bookshelf.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../readerRoute/views/chapter.html" />
-      <change beforePath="$PROJECT_DIR$/../routeExOutbox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../routeExOutbox/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/css/leaflet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/controllers/MainController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/services/places.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/vendor/angular-leaflet-directive.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/vendor/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/vendor/helpers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nearMe/js/vendor/leaflet.js" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../readerRoute/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../readerRoute/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,7 +71,7 @@
       <file leaf-file-name="angular.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/vendor/angular.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6024">
+            <state relative-caret-position="5928">
               <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -186,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +211,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,15 +256,15 @@
       <workItem from="1518128120403" duration="2587000" />
       <workItem from="1518134874237" duration="17000" />
       <workItem from="1518134975345" duration="18000" />
+      <workItem from="1518226695180" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2622000" />
+    <option name="totallyTimeSpent" value="2640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="0" width="2560" height="1600" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14804688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -304,6 +296,80 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/DayController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendor/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5928">
+          <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/EventController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/day.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
@@ -454,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6024">
+        <state relative-caret-position="5928">
           <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
