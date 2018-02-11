@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quattrocento'), url(https://fonts.gstatic.com/s/quattrocento/v9/WZDISdyil4HsmirlOdBRFBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quattrocento Bold'), local('Quattrocento-Bold'), url(https://fonts.gstatic.com/s/quattrocento/v9/Uvi-cRwyvqFpl9j3oT2mqshHwsiXhsDb0smKjAA7Bek.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/efd6FGWWGX5Z3ztwLBrG9czpYVnxV7fe3GzmF357o4o.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quattrocento Sans Bold'), local('QuattrocentoSans-Bold'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/tXSgPxDl7Lk8Zr_5qX8FISMwD46KpV4ZaXo4aI1TkGT3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+html {
+    font-size: 18px;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.main {
+    padding: 40px 0;
+    margin: 0;
+}
+
+.travelFrame {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+}
+
+.travelBox {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+    height: 400px;
+    position: relative;
+}
+
+.travelBox h3, p {
+    padding-left: 8px;
+}
+
+.travelBox a {
+    text-decoration: none;
+}
+
+.travelBox:hover {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(82, 229, 255, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(82, 229, 255, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(82, 229, 255, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(82, 229, 255, 1) 100%); /* W3C */
+}
+
+.travelFrame img {
+    bottom: 10%;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
+    left: 50%;
+    margin-left: -80px;
+    position: absolute;
+    right: 0;
+    width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 10%;
+    background-color: #262626;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.header .logo {
+    flex-grow: 1;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.4vw;
+    color: rgb(139, 208, 254);
+}
+
+.header li {
+ /*   line-height: 20%; */
+    display: inline-block;
+    padding-right: 2.22rem;
+}
+
+.header li a {
+    background: #262626;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #c0c0ca;
+/*    margin: 2px; */
+    padding: 10px;
+}
+
+.header li a:hover {
+    background: #9ebb35;
+    color: #262626;
+/*    margin: 2px; */
+    padding: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .logo {
+        font-size: 12px;
+    }
+
+    .header li a {
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .header li a:hover {
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .header .logo {
+        flex-grow: 0;
+    }
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 40vw;
+    background-image: url("../img/banner_b.jpg");
+    background-size: cover;
+    color: rgba(158, 187, 53, 0.75);
+}
+
+.banner h1 {
+    padding-top: 1.11rem;
+    font-family: "Quattrocento", serif;
+    font-size: 10vw;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 40rem;
+    }
+
+    .banner h1 {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .banner {
+        height: 30rem;
+    }
+
+    .banner h1 {
+        font-size: 6rem;
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    background-color: #262626;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 0.8vw;
+}
+
+.footwork {
+    background-color: #262626;
+}
+
+footer .image-container {
+    width: 6vw;
+    margin: 2px;
+}
+
+footer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer .content {
+    flex-grow: 1;
+    font-style: italic;
+    line-height: 150%;
+    color: #9b9b9b;
+}
+
+footer p {
+    padding-bottom: 1.2vw;
+    padding-left: 1.2vw;
+}
+
+footer p:last-child {
+    padding-bottom: 0;
+}
+
+footer .author {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #d5151c;
+}
+
+footer em {
+    font-size: 1vw;
+    color: #cfcfcf;
+}
+
+@media only screen and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+        padding: 0 10% 1rem 10%;
+        font-size: 8px;
+    }
+
+    footer .image-container {
+        height: 40px;
+        margin-bottom: 1px;
+        overflow: hidden;
+    }
+
+    footer p {
+        padding-bottom: 1.2rem;
+        padding-left: 1.2rem;
+    }
+
+    footer em {
+        font-size: 9px;
+        color: #cfcfcf;
+    }
+
+    footer img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

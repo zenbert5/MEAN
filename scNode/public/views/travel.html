@@ -1,0 +1,19 @@
+<nav class="header">
+    <span class="logo">SHAWN CHEN</span>
+    <ul>
+        <li><a href="#/">HOME</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+</nav>
+
+<div class="travelFrame row">
+    <div class="travelBox col-sm-4" ng-repeat="travel in myTravels">
+        <a href="#/travel/{{$index}}">
+            <img ng-src="{{ travel.img }}">
+            <h3 class="title">{{ travel.title }}</h3>
+            <p class="locData">{{ travel.locData }}</p>
+        </a>
+    </div>
+</div>
