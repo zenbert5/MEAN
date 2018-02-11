@@ -10,6 +10,10 @@ app.config(function($routeProvider) {
             controller: 'travelController',
             templateUrl: 'views/travel.html'
         })
+        .when('/venue', {
+            controller: 'toDoController',
+            templateUrl: 'views/toDo.html'
+        })
         .otherwise({
             redirectTo: '/'
         });

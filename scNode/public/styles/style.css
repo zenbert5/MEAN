@@ -66,6 +66,7 @@ html {
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
     height: 400px;
     position: relative;
+    overflow: hidden;
 }
 
 .travelBox h3, p {
@@ -74,6 +75,11 @@ html {
 
 .travelBox a {
     text-decoration: none;
+    color: #858585;
+}
+
+.travelBox:hover a {
+    color: #84b923;
 }
 
 .travelBox:hover {
@@ -195,6 +201,26 @@ html {
     font-weight: 400;
 }
 
+.venue {
+    width: 275px;
+    height: 400px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.venueimg {
+    width: 200px;
+    height: 300px;
+}
+
+#venues h2 {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.85;
+    text-align: center;
+    padding-top: 5px;
+}
+
 @media only screen and (max-width: 750px) {
     .banner {
         height: 40rem;
@@ -226,10 +252,6 @@ footer {
     font-size: 0.8vw;
 }
 
-.footwork {
-    background-color: #262626;
-}
-
 footer .image-container {
     width: 6vw;
     margin: 2px;
@@ -240,9 +262,16 @@ footer img {
     max-height: 100%;
 }
 
+footer .col-sm-1 img {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    width: 35px;
+}
+
 footer .content {
     flex-grow: 1;
-    font-style: italic;
+/*    font-style: italic; */
     line-height: 150%;
     color: #9b9b9b;
 }

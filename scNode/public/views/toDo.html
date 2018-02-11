@@ -1,0 +1,12 @@
+<div class="sectiontitle">
+    <h2>TOP ATTRACTIONS</h2>
+</div>
+<div class="travelFrame row">
+    <div class="travelBox col-sm-4" ng-repeat="venue in venues">
+        <a href="#/venue/{{$index}}">
+            <h3 class="title">{{ venue.name }}</h3>
+            <h3 class="locData">{{ venue.id }}</h3>
+            <p class="locData">{{ venue.contact.formattedPhone }}</p>
+        </a>
+    </div>
+</div>
